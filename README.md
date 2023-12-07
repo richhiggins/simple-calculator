@@ -8,6 +8,8 @@ Reference: https://equalexperts.github.io/ee-tech-interviews-uk/calculator-probl
 
 ## How to Use
 
+Clone the repostiory, then
+
 ```bash
 npm install
 ```
