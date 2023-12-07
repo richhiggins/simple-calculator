@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render, input & clear related tests: it renders the calculator in default state 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calculator"
+      >
+        <img
+          alt="Equal Experts logo"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="40"
+          src="/logo.svg"
+          style="color: transparent;"
+          width="150"
+        />
+        <input
+          aria-live="polite"
+          readonly=""
+          type="text"
+          value="0"
+        />
+        <div
+          class="grid"
+        >
+          <button
+            class="darkGrey"
+          >
+            C
+          </button>
+          <button
+            class="darkGrey"
+            disabled=""
+          >
+            +/-
+          </button>
+          <button
+            class="darkGrey"
+            disabled=""
+          >
+            %
+          </button>
+          <button
+            class="orange"
+          >
+            /
+          </button>
+          <button>
+            7
+          </button>
+          <button>
+            8
+          </button>
+          <button>
+            9
+          </button>
+          <button
+            class="orange"
+          >
+            *
+          </button>
+          <button>
+            4
+          </button>
+          <button>
+            5
+          </button>
+          <button>
+            6
+          </button>
+          <button
+            class="orange"
+          >
+            -
+          </button>
+          <button>
+            1
+          </button>
+          <button>
+            2
+          </button>
+          <button>
+            3
+          </button>
+          <button
+            class="orange"
+          >
+            +
+          </button>
+          <button>
+            0
+          </button>
+          <button>
+            .
+          </button>
+          <button
+            class="orange"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calculator"
+    >
+      <img
+        alt="Equal Experts logo"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="40"
+        src="/logo.svg"
+        style="color: transparent;"
+        width="150"
+      />
+      <input
+        aria-live="polite"
+        readonly=""
+        type="text"
+        value="0"
+      />
+      <div
+        class="grid"
+      >
+        <button
+          class="darkGrey"
+        >
+          C
+        </button>
+        <button
+          class="darkGrey"
+          disabled=""
+        >
+          +/-
+        </button>
+        <button
+          class="darkGrey"
+          disabled=""
+        >
+          %
+        </button>
+        <button
+          class="orange"
+        >
+          /
+        </button>
+        <button>
+          7
+        </button>
+        <button>
+          8
+        </button>
+        <button>
+          9
+        </button>
+        <button
+          class="orange"
+        >
+          *
+        </button>
+        <button>
+          4
+        </button>
+        <button>
+          5
+        </button>
+        <button>
+          6
+        </button>
+        <button
+          class="orange"
+        >
+          -
+        </button>
+        <button>
+          1
+        </button>
+        <button>
+          2
+        </button>
+        <button>
+          3
+        </button>
+        <button
+          class="orange"
+        >
+          +
+        </button>
+        <button>
+          0
+        </button>
+        <button>
+          .
+        </button>
+        <button
+          class="orange"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -5,9 +5,11 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
+    "mathjs": "^12.1.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
