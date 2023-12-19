@@ -1,35 +1,22 @@
-# Next.js + Jest
+# Next.js + Jest starter app with a few example WIP components for My Herbarium prototype
 
-This example shows how to configure Jest to work with Next.js.
+A quick draft of what a starting point might look like for the My Herbarium prototype.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+- Includes examples for how routing (index page), `Home`, `Card` and `SliderWithIcon` components might combine to form the structure of the application.
+- Illustrates a typical component folder structure including component, styles, types and tests.
+- Demonstrates how range inputs could be used for a simple and accessible slider UI.
+- Also includes an example of how colour design tokens could be used.
+- Further components, helpers and tests should be added to build out the remaining functionality for the prototype.
+- Jest and React Testing Library are included as a typical testing framework.
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+To install and run locally -
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
+npm install
+
+npm run dev
 ```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+And navigate to http://localhost:3000/.
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
+Based on (Next.js + Jest starter repo)[https://github.com/vercel/next.js/tree/canary/examples/with-jest].

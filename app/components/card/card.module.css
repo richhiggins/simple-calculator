@@ -1,0 +1,34 @@
+.card {
+  border-radius: 1rem;
+  padding: 1.8125rem 1.5rem;
+}
+
+.pink {
+  background: var(--lightPink);
+}
+
+.blue {
+  background: var(--lightBlue);
+}
+
+.green {
+  background: var(--lightGreen);
+}
+
+.cardHeading {
+  font-family: "Inter";
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+
+.pink .cardHeading {
+  color: var(--darkPink);
+}
+
+.blue .cardHeading {
+  color: var(--darkblue);
+}
+
+.green .cardHeading {
+  color: var(--darkGreen);
+}
