@@ -79,10 +79,10 @@ const Calculator = () => {
     "=",
   ]
 
-  /* debug */
+  /* debug
   useEffect(() => {
     console.log(calculatorState)
-  }, [calculatorState])
+  }, [calculatorState])*/
 
   return (
     <div className={styles.calculator}>
