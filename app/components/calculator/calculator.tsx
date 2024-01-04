@@ -35,7 +35,7 @@ const Calculator = () => {
   const handleOperatorPress: Function = (buttonValue: string) => {
     setCalculatorState({
       total:
-        calculatorState.operator && parseInt(calculatorState.input) // handle running total
+        calculatorState.operator && calculatorState.input // handle running total
           ? evaluate(
               `${calculatorState.total} ${calculatorState.operator} ${calculatorState.input}`
             )
@@ -79,10 +79,10 @@ const Calculator = () => {
     "=",
   ]
 
-  /* debug
+  /* debug */
   useEffect(() => {
     console.log(calculatorState)
-  }, [calculatorState]) */
+  }, [calculatorState])
 
   return (
     <div className={styles.calculator}>
